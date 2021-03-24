@@ -28,9 +28,9 @@ def jogar():
     dificuldade = int(input('Digite o número da dificuldade:').replace(' ', ''))
     print('=-=' * 20)
     if dificuldade == 1:
-        chances_restantes = 10
+        chances_restantes = 11
     if dificuldade == 2:
-        chances_restantes = 7
+        chances_restantes = 8
     if dificuldade == 3:
         chances_restantes = 4
 

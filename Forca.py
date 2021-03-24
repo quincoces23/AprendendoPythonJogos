@@ -82,6 +82,7 @@ def jogar():
 
     print('=-=' * 15)
 
+
 # Fim do código, tirando As defs.
 def mostrar_boas_vindas():
     print('=-=' * 10)
