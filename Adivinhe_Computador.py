@@ -32,7 +32,7 @@ def jogar():
     if dificuldade == 2:
         chances_restantes = 8
     if dificuldade == 3:
-        chances_restantes = 4
+        chances_restantes = 5
 
     print(f'Você tem {chances_restantes} tentativas!')
     sleep(1)
@@ -76,17 +76,17 @@ def jogar():
                 ' ', ''))
             print('=-=' * 20)
             if escolha == 1 and dificuldade == 1:
-                chances_restantes = 10
+                chances_restantes = 11
                 total_de_chutes -= total_de_chutes
                 numero_aleatorio = randrange(1, 101)
 
             if escolha == 1 and dificuldade == 2:
-                chances_restantes = 7
+                chances_restantes = 8
                 total_de_chutes -= total_de_chutes
                 numero_aleatorio = randrange(1, 101)
 
             if escolha == 1 and dificuldade == 3:
-                chances_restantes = 4
+                chances_restantes = 5
                 total_de_chutes -= total_de_chutes
                 numero_aleatorio = randrange(1, 101)
 
@@ -102,9 +102,9 @@ def jogar():
                 total_de_chutes -= total_de_chutes
 
                 if dificuldade == 1:
-                    chances_restantes = 10
+                    chances_restantes = 11
                 if dificuldade == 2:
-                    chances_restantes = 7
+                    chances_restantes = 8
                 if dificuldade == 3:
                     chances_restantes = 5
 
@@ -161,9 +161,9 @@ def jogar():
                                     ' número da dificuldade:').replace(' ', ''))
             total_de_chutes -= total_de_chutes
             if dificuldade == 1:
-                chances_restantes = 10
+                chances_restantes = 11
             if dificuldade == 2:
-                chances_restantes = 7
+                chances_restantes = 8
             if dificuldade == 3:
                 chances_restantes = 5
 
